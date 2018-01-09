@@ -1,0 +1,16 @@
+{
+  "name": "starting-grid",
+  "version": "0.1.0",
+  "description": "A CSS Grid layout library",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "CSS",
+    "CSS",
+    "Grid"
+  ],
+  "author": "Bryan King",
+  "license": "MIT"
+}
