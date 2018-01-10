@@ -1,4 +1,29 @@
 .grid {
   display: grid;
   grid-gap: $grid-gap;
+  margin-bottom: $grid-gap;
+}
+
+.two-col {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.three-col {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.four-col {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.five-col {
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.six-col {
+  grid-template-columns: repeat(6, 1fr);
+}
+
+.auto-col {
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
 }
