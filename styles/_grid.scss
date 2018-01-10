@@ -4,6 +4,12 @@
   margin-bottom: $grid-gap;
 }
 
+@media (min-width: 512px){
+  .auto-col {
+    grid-template-columns: repeat(auto-fit, minmax($auto-col-width, 1fr));
+  }
+}
+
 @media all and (min-width: 640px){
   .two-col {
     grid-template-columns: repeat(2, 1fr);
@@ -25,9 +31,6 @@
     grid-template-columns: repeat(3, 1fr);
   }
 
-  .auto-col {
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-  }
 }
 
 @media all and (min-width: 1024px){
