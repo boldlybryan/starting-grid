@@ -7,8 +7,14 @@ gulp.task("sassify", function(){
     .pipe(gulp.dest('dist/css/'));
 })
 
-gulp.task("watch", function(){
-  gulp.watch('styles/*.scss', ["sassify"])
+gulp.task("theme", function(){
+  return gulp.src("styles/theme/starting-grid-theme.scss")
+  .pipe(sass().on('error', sass.logError))
+  .pipe(gulp.dest('dist/css/'));
 })
 
-gulp.task("default", ["sassify"])
+gulp.task("watch", function(){
+  gulp.watch('styles/*.scss', ["sassify", "theme"])
+})
+
+gulp.task("default", ["sassify", "theme"])
