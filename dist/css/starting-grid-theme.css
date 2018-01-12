@@ -1,0 +1,11 @@
+* {
+  box-sizing: border-box; }
+
+html {
+  font-family: -apple-system,BlinkMacSystemFont,"avenir next",avenir,helvetica,"helvetica neue",ubuntu,roboto,noto,"segoe ui",arial,sans-serif; }
+
+.grid > div {
+  min-height: 320px;
+  padding: 1em;
+  background-color: #46bbff;
+  border-radius: 0.5em; }
