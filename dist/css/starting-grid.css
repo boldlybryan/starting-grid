@@ -32,7 +32,7 @@
     grid-template-columns: repeat(6, 1fr); } }
 
 .max-xs {
-  max-width: 1280px;
+  max-width: 360px;
   margin: 0 auto;
   padding: 1.5em; }
 
