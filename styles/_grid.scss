@@ -4,6 +4,10 @@
   margin-bottom: $grid-gap;
 }
 
+.gapless {
+  grid-gap: 0;
+}
+
 @media (min-width: 512px){
   .auto-col {
     grid-template-columns: repeat(auto-fit, minmax($auto-col-width, 1fr));
