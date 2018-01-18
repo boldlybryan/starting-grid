@@ -14,13 +14,71 @@
   }
 }
 
-@media all and (min-width: 768px){
+@media all and (min-width: $md){
   .two-col {
     grid-template-columns: repeat(2, 1fr);
+
+    &.c- {
+
+      &40-60 {
+        grid-template-columns: 40fr 60fr;
+      }
+
+      &60-40 {
+        grid-template-columns: 60fr 40fr;
+      }
+      
+      &67-33 {
+        grid-template-columns: 67fr 33fr;
+      }
+
+      &33-67 {
+        grid-template-columns: 33fr 67fr;
+      }
+
+      &25-75 {
+        grid-template-columns: 25fr 75fr;
+      }
+
+      &75-25 {
+        grid-template-columns:75fr 25fr;
+      }
+    }
+
   }
 
   .three-col {
     grid-template-columns: repeat(3, 1fr);
+
+    &.c- {
+
+      &50-25-25 {
+        grid-template-columns:50fr 25fr 25fr;
+      }
+
+      &25-50-25 {
+        grid-template-columns:25fr 50fr 25fr;
+      }
+      
+      &25-25-50 {
+        grid-template-columns:25fr 25fr 50fr;
+      }
+
+      &60-20-20 {
+        grid-template-columns:25fr 25fr 50fr;
+      }
+
+      &20-60-20 {
+        grid-template-columns:25fr 25fr 50fr;
+      }
+
+      &20-20-60 {
+        grid-template-columns:25fr 25fr 50fr;
+      }
+
+      
+    }
+
   }
 
   .four-col {
@@ -34,73 +92,8 @@
   .six-col {
     grid-template-columns: repeat(6, 1fr);
   }
-
+  
 }
-
-.two-col {
-
-  &.c- {
-
-    &40-60 {
-      grid-template-columns: 40fr 60fr;
-    }
-
-    &60-40 {
-      grid-template-columns: 60fr 40fr;
-    }
-    
-    &67-33 {
-      grid-template-columns: 67fr 33fr;
-    }
-
-    &33-67 {
-      grid-template-columns: 33fr 67fr;
-    }
-
-    &25-75 {
-      grid-template-columns: 25fr 75fr;
-    }
-
-    &75-25 {
-      grid-template-columns:75fr 25fr;
-    }
-  }
-
-}
-
-.three-col {
-
-  &.c- {
-
-    &50-25-25 {
-      grid-template-columns:50fr 25fr 25fr;
-    }
-
-    &25-50-25 {
-      grid-template-columns:25fr 50fr 25fr;
-    }
-    
-    &25-25-50 {
-      grid-template-columns:25fr 25fr 50fr;
-    }
-
-    &60-20-20 {
-      grid-template-columns:25fr 25fr 50fr;
-    }
-
-    &20-60-20 {
-      grid-template-columns:25fr 25fr 50fr;
-    }
-
-    &20-20-60 {
-      grid-template-columns:25fr 25fr 50fr;
-    }
-
-    
-  }
-
-}
-
 
 .max-xs {
   max-width: $xs;
