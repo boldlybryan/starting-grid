@@ -7,7 +7,7 @@ The Starting Grid is a CSS layout library based on the CSS Grid spec. It uses a 
 3. `gulp` to compile scss to css, then `gulp watch` to run task automagically.
 
 Alternatively, there is a pre-release version of starting grid on jsdelivr. Include the following link to use starting grid:
-```https://cdn.jsdelivr.net/gh/brykng/starting-grid@v0.1.0/dist/css/starting-grid.css```
+```https://cdn.jsdelivr.net/gh/brykng/starting-grid@v0.1.2/dist/css/starting-grid.css```
 
 ## Roadmap
 * Uneven column splits (ex. 2 column, 60/40 layout)
