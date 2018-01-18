@@ -49,27 +49,27 @@
 .max-xs {
   max-width: 360px;
   margin: 0 auto;
-  padding: 1.5em; }
+  padding: 0 1.5em; }
 
 .max-sm {
   max-width: 512px;
   margin: 0 auto;
-  padding: 1.5em; }
+  padding: 0 1.5em; }
 
 .max-md {
   max-width: 768px;
   margin: 0 auto;
-  padding: 1.5em; }
+  padding: 0 1.5em; }
 
 .max-lg {
   max-width: 1024px;
   margin: 0 auto;
-  padding: 1.5em; }
+  padding: 0 1.5em; }
 
 .max-xl {
   max-width: 1280px;
   margin: 0 auto;
-  padding: 1.5em; }
+  padding: 0 1.5em; }
 
 .first {
   order: -1; }

@@ -92,37 +92,37 @@
   .six-col {
     grid-template-columns: repeat(6, 1fr);
   }
-  
+
 }
 
 .max-xs {
   max-width: $xs;
   margin: 0 auto;
-  padding: $grid-gap;
+  padding: 0 $grid-gap;
 }
 
 .max-sm {
   max-width: $sm;
   margin: 0 auto;
-  padding: $grid-gap;
+  padding: 0 $grid-gap;
 }
 
 .max-md {
   max-width: $md;
   margin: 0 auto;
-  padding: $grid-gap;
+  padding: 0 $grid-gap;
 }
 
 .max-lg {
   max-width: $lg;
   margin: 0 auto;
-  padding: $grid-gap;
+  padding: 0 $grid-gap;
 }
 
 .max-xl {
   max-width: $xl;
   margin: 0 auto;
-  padding: $grid-gap;
+  padding: 0 $grid-gap;
 }
 
 .first {
